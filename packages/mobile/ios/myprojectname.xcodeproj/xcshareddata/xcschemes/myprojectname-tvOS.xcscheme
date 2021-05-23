@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "myprojectname-tvOS.app"
-               BlueprintName = "myprojectname-tvOS"
-               ReferencedContainer = "container:myprojectname.xcodeproj">
+               BuildableName = "League-tvOS.app"
+               BlueprintName = "League-tvOS"
+               ReferencedContainer = "container:League.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "myprojectname-tvOSTests.xctest"
-               BlueprintName = "myprojectname-tvOSTests"
-               ReferencedContainer = "container:myprojectname.xcodeproj">
+               BuildableName = "League-tvOSTests.xctest"
+               BlueprintName = "League-tvOSTests"
+               ReferencedContainer = "container:League.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "myprojectname-tvOS.app"
-            BlueprintName = "myprojectname-tvOS"
-            ReferencedContainer = "container:myprojectname.xcodeproj">
+            BuildableName = "League-tvOS.app"
+            BlueprintName = "League-tvOS"
+            ReferencedContainer = "container:League.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "myprojectname-tvOS.app"
-            BlueprintName = "myprojectname-tvOS"
-            ReferencedContainer = "container:myprojectname.xcodeproj">
+            BuildableName = "League-tvOS.app"
+            BlueprintName = "League-tvOS"
+            ReferencedContainer = "container:League.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
