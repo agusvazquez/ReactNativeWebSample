@@ -1,18 +1,9 @@
-/**
- * Metro configuration for React Native
- * https://github.com/facebook/react-native
- *
- * @format
- */
+/* eslint-disable @typescript-eslint/no-var-requires */
 
-const path = require('path');
-
-const extraNodeModules = {
-  common: path.resolve(__dirname + '/../common'),
-};
-const watchFolders = [path.resolve(__dirname + '/../common')];
+const path = require('path')
 
 module.exports = {
+  watchFolders: [path.resolve(__dirname, '../../')],
   transformer: {
     getTransformOptions: async () => ({
       transform: {
@@ -21,14 +12,4 @@ module.exports = {
       },
     }),
   },
-  resolver: {
-    extraNodeModules: new Proxy(extraNodeModules, {
-      get: (target, name) =>
-        //redirects dependencies referenced from common/ to local node_modules
-        name in target
-          ? target[name]
-          : path.join(process.cwd(), `node_modules/${name}`),
-    }),
-  },
-  watchFolders,
-};
+}
