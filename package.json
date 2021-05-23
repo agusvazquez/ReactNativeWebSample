@@ -1,18 +1,12 @@
 {
-  "name": "League",
-  "version": "0.0.1",
+  "name": "ReactNativeWebSample",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/agusvazquez/ReactNativeWebSample",
   "author": "Agustin Alejandro Vazquez Ballan <aguss.vazquez@gmail.com>",
   "license": "MIT",
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/react-native",
-      "**/react-native/**"
-    ]
-  },
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

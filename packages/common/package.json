@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "@universal/common",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT"

@@ -26,8 +26,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {getWelcomeString} from 'common/src/main';
-
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
@@ -48,7 +46,7 @@ const Section = ({children, title}): Node => {
             color: isDarkMode ? Colors.light : Colors.dark,
           },
         ]}>
-        {getWelcomeString('World')}
+        {children}
       </Text>
     </View>
   );
